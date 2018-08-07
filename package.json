@@ -1,6 +1,6 @@
 {
   "name": "public-class",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A javascript library to expose only selected memebrs of a class making rest members private",
   "main": "lib/createPublicClass",
   "keywords": [
