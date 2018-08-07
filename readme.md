@@ -1,4 +1,4 @@
-#public-class
+# public-class
 
 A small utility to wrap your es6 classes or es5 constructor functions to provide public and private access levels.
 Existing classes or constructor functions can be used with `public-class` as is.
