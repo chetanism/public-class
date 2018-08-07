@@ -1,0 +1,52 @@
+{
+  "name": "public-class",
+  "version": "0.0.0",
+  "description": "A javascript library to expose only selected memebrs of a class making rest members private",
+  "main": "lib/createPublicClass",
+  "keywords": [
+    "class",
+    "classes",
+    "constructor",
+    "public",
+    "private",
+    "decorator"
+  ],
+  "scripts": {
+    "test": "jest",
+    "prettier": "prettier --write \"src/**/*.js\"",
+    "clean": "rm -rf lib",
+    "build": "babel src -d lib"
+  },
+  "author": {
+    "name": "chetan verma",
+    "email": "verma.chetan@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.4.2",
+    "prettier": "^1.14.0"
+  },
+  "babel": {
+    "ignore": [
+      "**/*.test.js"
+    ],
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "8.11"
+          }
+        }
+      ]
+    ]
+  },
+  "jest": {
+    "testURL": "http://localhost"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
